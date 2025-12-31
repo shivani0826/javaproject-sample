@@ -3,51 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example</groupId>
-  <artifactId>javaproject</artifactId>
-  <version>1.0</version>
-<<<<<<< HEAD
-  <packaging>jar</packaging>
-=======
->>>>>>> 2acd55238bf28190644b832d75f6469d701c428a
+    <groupId>com.example</groupId>
+    <artifactId>javaproject</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
 
-  <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-  </properties>
+    <name>javaproject</name>
 
-<<<<<<< HEAD
-  <build>
-    <plugins>
-
-      <!-- Compiler -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.11.0</version>
-      </plugin>
-
-      <!-- Jar plugin with MAIN CLASS -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.3.0</version>
-        <configuration>
-          <archive>
-            <manifest>
-              <mainClass>com.example.App</mainClass>
-            </manifest>
-          </archive>
-        </configuration>
-      </plugin>
-
-    </plugins>
-  </build>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 
 </project>
-
-=======
-</project>
->>>>>>> 2acd55238bf28190644b832d75f6469d701c428a
